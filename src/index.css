@@ -40,5 +40,8 @@
     .btn-component {
       @apply bg-blue-600 rounded-md text-white px-3 py-2 hover:bg-blue-700 shadow-lg
     }
+    .btn-query {
+      @apply max-sm:mt-5 max-sm:py-1 max-sm:px-2 max-sm:text-[10px]
+    }
 
   }

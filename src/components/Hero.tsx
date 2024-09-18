@@ -10,7 +10,7 @@ const Hero = () => {
           <h1 className="text-6xl font-bold leading-tight max-md:text-center max-lg:text-4xl">Premium Web <br />Hosting for Your <br /> Website</h1>
           <p className="py-7 text-gray-500 max-md:text-center max-lg:text-sm ">Blazing fast web hosting for individuals and <br /> businesses of all sizes backed by 24x7x365 Support.</p>
           <div className='flex max-md:justify-center'>
-          <CustomButton children="Create an Account" className="text-sm mt-8 max-sm:mt-5 " />
+          <CustomButton children="Create an Account" className="text-sm mt-8 btn-query" />
           </div>
         </div>
         {/* hero image */}

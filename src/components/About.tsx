@@ -4,7 +4,7 @@ import time from "../assets/time.png";
 const About = () => {
   return (
     <div className="padding" id="about">
-      <div className="flex justify-center items-center gap-10">
+      <div className="flex justify-center items-center gap-10 max-sm:flex-col">
         <div className="flex gap-10 flex-col flex-1 ">
           <h1 className="text-4xl font-bold">True Cloud Web Hosting</h1>
           <p>
@@ -14,7 +14,7 @@ const About = () => {
             infrastructure is built to be reliable, secure, and scalable.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-6 flex-1 justify-items-center ">
+        <div className="grid grid-cols-3 max-md:grid-cols-2  gap-6 flex-1 justify-items-center ">
           <img src={companyLocgo} alt="" className="object-cover" />
           <img src={companyLocgo} alt="" className="object-cover" />
           <img src={companyLocgo} alt="" className="object-cover" />
@@ -23,7 +23,7 @@ const About = () => {
           <img src={companyLocgo} alt="" className="object-cover" />
         </div>
       </div>
-      <div className="padding-y grid grid-cols-4  gap-10 text-center">
+      <div className="padding-y grid grid-cols-4 max-md:grid-cols-2  gap-10 text-center padding-y">
         <div className="flex flex-col justify-center items-center">
           <div className="h-[80px] w-[80px]">
             <img src={time} alt="" className="object-contain" />
