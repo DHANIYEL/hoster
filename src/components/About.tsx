@@ -3,7 +3,7 @@ import time from "../assets/time.png";
 
 const About = () => {
   return (
-    <div className="padding">
+    <div className="padding" id="about">
       <div className="flex justify-center items-center gap-10">
         <div className="flex gap-10 flex-col flex-1 ">
           <h1 className="text-4xl font-bold">True Cloud Web Hosting</h1>
