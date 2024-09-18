@@ -1,6 +1,5 @@
-import React from 'react';
 import CustomButton from './CustomButton';
-import heroImage from "assets/hero-img.png"; // Import as default export
+import heroImage from "../assets/hero-img.png"; // Import as default export
 
 const Hero = () => {
   return (
