@@ -38,7 +38,7 @@
       @apply sm:pb-24 pb-12;
     }
     .btn-component {
-      @apply bg-blue-700 rounded-md text-white px-3 py-2
+      @apply bg-blue-600 rounded-md text-white px-3 py-2 hover:bg-blue-700 shadow-lg
     }
 
   }

@@ -2,7 +2,7 @@
 const Navbar = () => {
   return (
     <div>
-      <div className="flex justify-center py-7 px-12">
+      <div className="flex justify-center padding-x py-7">
         <ul className="flex justify-between w-full font-medium">
           <li className="flex items-center">
             <a href="/">Home</a>

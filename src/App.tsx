@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App 2xl:mx-96">
       <Navbar />
       <Hero />
     </div>
