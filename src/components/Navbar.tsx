@@ -10,12 +10,12 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex justify-center py-7 px-40 items-center">
-        <ul className="flex justify-between w-full font-medium max-md:hidden">
+      <div className="flex justify-center py-7 px-40 max-lg:px-20 items-center 2xl:mx-96">
+        <ul className="flex justify-around w-full font-medium max-md:hidden mx-auto">
           <li className="flex items-center">
             <a href="/">Home</a>
           </li>
-          <div className="flex gap-9">
+          <div className="flex gap-7"> 
             <li>
               <a href="#about">About</a>
             </li>
