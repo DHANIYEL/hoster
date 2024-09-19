@@ -11,7 +11,7 @@
 
   @layer utilities {
     .padding {
-      @apply sm:px-16 px-8 sm:py-24 py-12 2xl:mx-96;
+      @apply sm:px-16 px-8 sm:py-24 py-12 ;
     }
   
     .padding-x {
