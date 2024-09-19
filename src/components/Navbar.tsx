@@ -7,6 +7,7 @@ const Navbar = () => {
   //     setToggle(!toggle);
   //   };
   // };
+
   return (
     <div>
       <div className="flex justify-center py-7 px-40 items-center">
@@ -19,7 +20,7 @@ const Navbar = () => {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#blog">Pricing</a>
+              <a href="#pricing">Pricing</a>
             </li>
             <li>
               <a href="#contact">Contact</a>

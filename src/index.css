@@ -11,7 +11,7 @@
 
   @layer utilities {
     .padding {
-      @apply sm:px-16 px-8 sm:py-24 py-12;
+      @apply sm:px-16 px-8 sm:py-24 py-12 2xl:mx-96;
     }
   
     .padding-x {
@@ -43,5 +43,6 @@
     .btn-query {
       @apply max-sm:mt-5 max-sm:py-1 max-sm:px-2 max-sm:text-[10px]
     }
+
 
   }

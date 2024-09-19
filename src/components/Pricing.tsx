@@ -8,7 +8,7 @@ const Pricing = () => {
   };
 
   return (
-    <div className="sm:px-16 px-8">
+    <div className="sm:px-16  padding" id="pricing">
       <div>
         <div className="flex flex-col text-center">
           <h1 className="text-4xl font-semibold">

@@ -3,7 +3,7 @@ import heroImage from "../assets/hero-img.png"; // Import as default export
 
 const Hero = () => {
   return (
-    <div className=" padding 2xl:mx-96">
+    <div className=" padding ">
       <div className="flex gap-5 max-md:flex-col-reverse items-center justify-center">
         {/* heading and text */}
         <div className="flex-1 justify-center">
@@ -14,7 +14,7 @@ const Hero = () => {
           </div>
         </div>
         {/* hero image */}
-        <div className="flex-1 w-full flex justify-end ">
+        <div className="flex-1 w-full flex justify-end max-md:justify-center max-md:my-6">
           <img src={heroImage} alt="hero" />
         </div>
       </div>

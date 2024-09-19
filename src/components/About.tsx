@@ -3,7 +3,7 @@ import time from "../assets/time.png";
 
 const About = () => {
   return (
-    <div className="padding  App 2xl:mx-96 " id="about">
+    <div className="padding  App  " id="about">
       <div className="flex justify-center items-center gap-10 max-sm:flex-col">
         <div className="flex gap-10 flex-col flex-1 ">
           <h1 className="text-4xl font-bold">True Cloud Web Hosting</h1>
@@ -23,13 +23,13 @@ const About = () => {
           <img src={companyLocgo} alt="" className="object-cover" />
         </div>
       </div>
-      <div className="padding-y grid grid-cols-4 max-md:grid-cols-2  gap-10 text-center padding-y">
+      <div className="padding-y grid grid-cols-4 max-md:grid-cols-2  gap-10  padding-y">
         <div className="flex flex-col justify-center items-center">
           <div className="h-[80px] w-[80px]">
             <img src={time} alt="" className="object-contain" />
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-md font-semibold p-3">99.9% Uptime</h1>
+            <h1 className="text-md font-semibold p-3 text-center">99.9% Uptime</h1>
             <p className="text-sm text-gray-600">
               We Keep Your Web build Online 24x7x365. Downtime not only costs
               you lost visitors but also damages your reputation and search
@@ -41,7 +41,7 @@ const About = () => {
           <div className="h-[80px] w-[80px]">
             <img src={time} alt="" className="object-contain" />
           </div>
-          <h1 className="text-md font-semibold p-3">
+          <h1 className="text-md font-semibold p-3 text-center">
             Blazing Fast Web Hosting
           </h1>
           <p className="text-sm text-gray-600">
@@ -54,7 +54,7 @@ const About = () => {
           <div className="h-[80px] w-[80px]">
             <img src={time} alt="" className="object-contain" />
           </div>
-          <h1 className="text-md font-semibold p-3">Free SSL Certificates</h1>
+          <h1 className="text-md font-semibold p-3 text-center">Free SSL Certificates</h1>
           <p className="text-sm text-gray-600">
             We Keep Your Web build Online 24x7x365. Downtime not only costs you
             lost visitors but also damages your reputation and search engine
@@ -65,7 +65,7 @@ const About = () => {
           <div className="h-[80px] w-[80px]">
             <img src={time} alt="" className="object-contain" />
           </div>
-          <h1 className="text-md font-semibold p-3">24x7 Friendly Support</h1>
+          <h1 className="text-md font-semibold p-3 text-center">24x7 Friendly Support</h1>
           <p className="text-sm text-gray-600">
             We Keep Your Web build Online 24x7x365. Downtime not only costs you
             lost visitors but also damages your reputation and search engine
