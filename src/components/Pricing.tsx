@@ -1,4 +1,12 @@
+import { useState } from 'react';
+
 const Pricing = () => {
+  const [activePlan, setActivePlan] = useState<string>('basic');
+
+  const handlePlanClick = (plan: string) => {
+    setActivePlan(plan);
+  };
+
   return (
     <div className="sm:px-16 px-8">
       <div>
@@ -11,12 +19,17 @@ const Pricing = () => {
             Choose the package that suits you
           </p>
         </div>
-        <div className="padding-y flex padding-x flex-col justify-center items-center">
-          <div className="flex justify-center items-center gap-24 text-xl font-semibold ">
-            <p>Basic</p>
-            <p>Premium</p>
+        <div className="padding-y flex padding-x flex-col">
+          <div className="flex justify-around items-center text-xl font-semibold">
+            <div className="w-1/2 flex flex-col items-center cursor-pointer" onClick={() => handlePlanClick('basic')}>
+              <h5 className=''>Basic</h5>
+              <div className={`h-1 w-full ${activePlan === 'basic' ? 'bg-blue-500' : 'bg-gray-400'}`}></div>
+            </div>
+            <div className="w-1/2 flex flex-col items-center cursor-pointer" onClick={() => handlePlanClick('premium')}>
+              <h5>Premium</h5>
+              <div className={`h-1 w-full ${activePlan === 'premium' ? 'bg-blue-500' : 'bg-gray-400'}`}></div>
+            </div>
           </div>
-          <div className="h-1 w-1/2 bg-blue-500 mt-2"></div>
         </div>
       </div>
     </div>

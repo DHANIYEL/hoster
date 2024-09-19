@@ -7,7 +7,7 @@ import Pricing from "components/Pricing";
 
 function App() {
   return (
-    <div className="App 2xl:mx-96">
+    <div className="App ">
       <Navbar />
       <Hero />
       <About />
