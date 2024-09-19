@@ -18,23 +18,23 @@ const PriceCard = ({
   year,
   featureList,
 }: PriceCardProps) => {
-  console.log(featureList);
+  // console.log(featureList);
   return (
-    <div>
-      <div className="border-[2px] ">
-        <div className="p-9">
-          <h1>{head}</h1>
-          <span>{section}</span>
-          <p>{description}</p>
-          <h1>{pricing}</h1>
-          <p>{year}</p>
+    <div className="">
+      <div className="border-[2px]  rounded-xl shadow-md flex flex-col h-full">
+        <div className="p-6 flex flex-col  gap-4 ">
+          <h1 className="text-2xl font-bold ">{head}</h1>
+          <span className="bg-yellow-300 px-2 py-0.5 font-semibold w-fit text-[12px] rounded-full">{section}</span>
+          <p className="text-sm font-medium">{description}</p>
+          <h1 className="text-4xl font-bold">{pricing}</h1>
+          <p className="-mt-3">{year}</p>
           <CustomButton children="Choose this Plan" />
           {featureList.map((item) => (
-            <div  className="flex">
+            <div  className="flex gap-2 mt-2">
               <span>
                 <img src={Checkmark} alt="" />
               </span>
-              <p>{item}</p>{" "}
+              <p key={Math.random().toString()}>{item}</p>{" "}
             </div>
           ))}
         </div>
