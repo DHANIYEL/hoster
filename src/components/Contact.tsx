@@ -1,5 +1,5 @@
 import CustomButton from "./CustomButton";
-import whatsapp from "../assets/whatsapp.png";
+import whatsapp from "../assets/Vector.svg";
 const Contact = () => {
   return (
     <div className="padding-x">
@@ -11,7 +11,7 @@ const Contact = () => {
           <CustomButton
             img={whatsapp}
             children="Get  in touch with us"
-            className="flex flex-row gap-1"
+            className="flex flex-row gap-2 justify-center items-center"
           />
         </div>
       </div>

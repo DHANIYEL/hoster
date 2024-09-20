@@ -5,7 +5,7 @@ const CustomButton = ({ className, children, img }: any) => {
     >
       {img && (
         <div className={`${className}`}>
-          <img src={img} alt="wp image" />
+          <img src={img} alt="wp image" className="w-5 h-5" />
           {children}
         </div>
       )}
