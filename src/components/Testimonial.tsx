@@ -2,6 +2,9 @@ import BlogIcon from "../assets/blog-icon.png";
 import BlogBox1 from "../assets/blog-box-1.png";
 import BlogBox2 from "../assets/blog-box-2.png";
 import BlogBox3 from "../assets/blog-box-3.png";
+import BlogBox4 from "../assets/blog-box-4.png";
+import BlogBox5 from "../assets/blog-box-5.png";
+import BlogBox6 from "../assets/blog-box-6.png";
 
 // Assuming blogCard is defined in another file or within the same component
 
@@ -74,6 +77,28 @@ const Testimonial = () => {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="padding">
+        <div className="flex justify-center items-center gap-20 max-sm:flex-col">
+          <div className="flex gap-10 flex-col flex-1 ">
+            <h1 className="text-4xl font-bold">
+              We serve over 100 Nigerian Websites
+            </h1>
+            <p>
+              Connect LemonWares with your favourite tools that you use daily{" "}
+              <br />
+              and keep things on track.
+            </p>
+          </div>
+          <div className="grid grid-cols-3 max-md:grid-cols-2  gap-6 flex-1 justify-items-center items-center ">
+            <img src={BlogBox1} alt="" className="object-cover" />
+            <img src={BlogBox2} alt="" className="object-cover" />
+            <img src={BlogBox3} alt="" className="object-cover" />
+            <img src={BlogBox4} alt="" className="object-cover" />
+            <img src={BlogBox5} alt="" className="object-cover" />
+            <img src={BlogBox6} alt="" className="object-cover" />
           </div>
         </div>
       </div>
