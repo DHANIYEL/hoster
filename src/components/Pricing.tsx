@@ -75,35 +75,33 @@ const Pricing = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mt-24">
-  <PriceCard
-    head="Starter"
-    section=" Shared Server"
-    description="With all your customers via all conversation channels."
-    pricing="₹3500"
-    year="Per year"
-    featureList={BasicFeature}
-  />
-  <PriceCard
-    head="Standard"
-    section="Cloud Server"
-    description="With all your customers via all conversation channels."
-    pricing="₹3500"
-    year="Per month"
-    featureList={MidlleFeature}
-  />
-  <div className="sm:justify-self-center">
-
-  <PriceCard
-    head="Suprem"
-    section="WordPress Dedicated"
-    description="With all your customers via all conversation channels."
-    pricing="₹8500"
-    year="Per month"
-    featureList={AdvanceFeature}
-    
-  />
-  </div>
-</div>
+        <PriceCard
+          head="Starter"
+          section=" Shared Server"
+          description="With all your customers via all conversation channels."
+          pricing="₹3500"
+          year="Per year"
+          featureList={BasicFeature}
+        />
+        <PriceCard
+          head="Standard"
+          section="Cloud Server"
+          description="With all your customers via all conversation channels."
+          pricing="₹3500"
+          year="Per month"
+          featureList={MidlleFeature}
+        />
+        <div className="">
+          <PriceCard
+            head="Suprem"
+            section="WordPress Dedicated"
+            description="With all your customers via all conversation channels."
+            pricing="₹8500"
+            year="Per month"
+            featureList={AdvanceFeature}
+          />
+        </div>
+      </div>
     </div>
   );
 };
