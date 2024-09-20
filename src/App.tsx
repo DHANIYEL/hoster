@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import About from "components/About";
 import Pricing from "components/Pricing";
 import Testimonial from "components/Testimonial";
+import Contact from "components/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Pricing />
       <Testimonial />
+      <Contact />
     </div>
   );
 }
