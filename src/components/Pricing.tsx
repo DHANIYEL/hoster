@@ -38,11 +38,11 @@ const Pricing = () => {
   return (
     <div className="px-4 sm:px-8 md:px-16 lg:px-20 py-8" id="pricing">
       <div className="flex flex-col text-center">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold">
+        <h1 className="text-4xl sm:text-4xl lg:text-5xl font-semibold">
           Ready to get started with <br />
           Lemon Wares?
         </h1>
-        <p className="text-gray-500 mt-4 text-sm sm:text-base md:text-lg">
+        <p className="text-gray-500 mt-6 text-sm sm:text-base md:text-lg">
           Choose the package that suits you
         </p>
       </div>
@@ -74,7 +74,7 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mt-24">
   <PriceCard
     head="Starter"
     section=" Shared Server"
@@ -84,21 +84,21 @@ const Pricing = () => {
     featureList={BasicFeature}
   />
   <PriceCard
-    head="Basic"
-    section=" Shared Server"
+    head="Standard"
+    section="Cloud Server"
     description="With all your customers via all conversation channels."
-    pricing="₹5000"
-    year="Per year"
+    pricing="₹3500"
+    year="Per month"
     featureList={MidlleFeature}
   />
   <div className="sm:justify-self-center">
 
   <PriceCard
-    head="Premium"
-    section=" Shared Server"
+    head="Suprem"
+    section="WordPress Dedicated"
     description="With all your customers via all conversation channels."
-    pricing="₹7500"
-    year="Per year"
+    pricing="₹8500"
+    year="Per month"
     featureList={AdvanceFeature}
     
   />

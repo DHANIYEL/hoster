@@ -15,12 +15,15 @@ const Navbar = () => {
           <li className="flex items-center">
             <a href="/">Home</a>
           </li>
-          <div className="flex gap-7"> 
+          <div className="flex gap-7">
             <li>
               <a href="#about">About</a>
             </li>
             <li>
               <a href="#pricing">Pricing</a>
+            </li>
+            <li>
+              <a href="#blog">Blog</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
