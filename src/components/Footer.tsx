@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p
+        {/* <p
           className="absolute bottom-10 max-lg:right-0 max-md:bottom-0 cursor-pointer bg-[#ded9d929] px-3 py-2 rounded-lg text-[12px] font-semibold"
           onClick={() => {
             // Your custom click handler logic here
@@ -49,7 +49,7 @@ const Footer = () => {
           }}
         >
           Copyright by Dhaniiiyll
-        </p>
+        </p> */}
       </div>
     </div>
   );
