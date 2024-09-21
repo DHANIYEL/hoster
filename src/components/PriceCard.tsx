@@ -40,8 +40,8 @@ const PriceCard = ({
             children="Choose this Plan"
             handleClick={handleNavigation}
           />
-          {featureList.map((item) => (
-            <div className="flex gap-2 mt-2">
+          {featureList.map((item, index) => (
+            <div className="flex gap-2 mt-2" key={index}>
               <span>
                 <img src={Checkmark} alt="" />
               </span>
