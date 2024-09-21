@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex justify-center py-7 !pb-0 flex-wrap padding lg:px-20 items-center max-md:justify-end ">
+      <div className="flex justify-center py-7 !pb-0 !pt-5 flex-wrap padding lg:px-20 items-center max-md:justify-end ">
         <ul className="flex justify-around w-full  font-medium flex-wrap text-centers max-md:hidden mx-auto">
           <NavLinks handleToggle={handleToggle} />
         </ul>
