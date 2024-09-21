@@ -2,7 +2,7 @@ import CustomButton from "./CustomButton";
 import whatsapp from "../assets/Vector.svg";
 const Contact = () => {
   const handleNavigation = () => {
-    window.location.href = "https://wa.me/7012882165";
+    window.location.href = "https://wa.me/9656210077";
   };
 
   return (
