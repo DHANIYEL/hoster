@@ -8,6 +8,7 @@ interface PriceCardProps {
   pricing: string;
   year: string;
   featureList: String[];
+  wpName: string;
 }
 
 const PriceCard = ({
@@ -17,14 +18,13 @@ const PriceCard = ({
   pricing,
   year,
   featureList,
+  wpName,
 }: PriceCardProps) => {
   // console.log(featureList);
 
   const handleNavigation = () => {
-    window.location.href =
-      "https://wa.me/8129730199?text=I'm%20inquiring%20about%20the%20apartment%20listing";
+    window.location.href = `${wpName}`;
   };
-  // Hi there! I'm interested in your Starter WordPress hosting plan. Could you tell me more about what's included and who it's best suited for?
   return (
     <div className="">
       <div className="border-[2px]  rounded-xl shadow-md flex flex-col h-full">

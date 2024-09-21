@@ -82,6 +82,7 @@ const Pricing = () => {
           pricing="₹3500"
           year="Per year"
           featureList={BasicFeature}
+          wpName="https://wa.me/7012882165?text=Hi%20inquiring%20about%20the%20Starter%20WordPress%20hosting%20plan.%20Could%20you%20tell%20me%20more%20about%20what's%20included%20and%20who%20it's%20best%20suited%20for%20?"
         />
         <PriceCard
           head="Standard"
@@ -90,6 +91,7 @@ const Pricing = () => {
           pricing="₹3500"
           year="Per month"
           featureList={MidlleFeature}
+          wpName="https://wa.me/7012882165?text=Hi%20inquiring%20about%20the%20Standard%20WordPress%20hosting%20plan.%20What%20are%20the%20key%20differences%20compared%20to%20the%20Starter%20plan,%20and%20what%20additional%20features%20or%20benefits%20does%20it%20offer?"
         />
         <div className="">
           <PriceCard
@@ -99,6 +101,7 @@ const Pricing = () => {
             pricing="₹8500"
             year="Per month"
             featureList={AdvanceFeature}
+            wpName="https://wa.me/7012882165?text=Hi%20inquiring%20about%20the%20Supreme%20hosting%20plan.%20Can%20you%20tell%20me%20more%20about%20your%20Supreme%20hosting%20plan,%20and%20how%20it%20compares%20to%20your%20other%20options?"
           />
         </div>
       </div>
