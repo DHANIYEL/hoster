@@ -4,7 +4,7 @@ import time from "../assets/time.png";
 const About = () => {
   return (
     <div className="padding  App  " id="about">
-      <div className="flex justify-center items-center gap-10 max-sm:flex-col">
+      <div className="flex justify-center items-center gap-10 max-md:flex-col">
         <div className="flex gap-10 flex-col flex-1 ">
           <h1 className="text-4xl font-bold">True Cloud Web Hosting</h1>
           <p>
@@ -31,12 +31,12 @@ const About = () => {
           <img src={companyLocgo} alt="" className="object-cover" />
         </div>
       </div>
-      <div className="padding-y grid grid-cols-4 max-md:grid-cols-2  gap-10  padding-y">
-        <div className="flex flex-col justify-center items-center">
-          <div className="h-[80px] w-[80px]">
+      <div className="padding-y grid grid-cols-4 max-md:grid-cols-2  gap-10  padding-y ">
+        <div className="flex flex-col justify-center items-center ">
+          <div className="h-[80px] w-[80px] ">
             <img src={time} alt="" className="object-contain" />
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center max-sm:text-center">
             <h1 className="text-md font-semibold p-3 text-center">
               99.9% Uptime
             </h1>
@@ -47,7 +47,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center  max-sm:text-center">
           <div className="h-[80px] w-[80px]">
             <img src={time} alt="" className="object-contain" />
           </div>
@@ -60,7 +60,7 @@ const About = () => {
             rankings.
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center  max-sm:text-center">
           <div className="h-[80px] w-[80px]">
             <img src={time} alt="" className="object-contain" />
           </div>
@@ -73,7 +73,7 @@ const About = () => {
             rankings.
           </p>
         </div>
-        <div className="flex flex-col justify-center  items-center">
+        <div className="flex flex-col justify-center  items-center max-sm:text-center">
           <div className="h-[80px] w-[80px]">
             <img src={time} alt="" className="object-contain" />
           </div>

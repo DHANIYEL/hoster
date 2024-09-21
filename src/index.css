@@ -46,4 +46,7 @@
     .xl-monitor {
       @apply 2xl:mx-96
     }
+    .pad-rem{
+      @apply max-md:!py-0
+    }
   }

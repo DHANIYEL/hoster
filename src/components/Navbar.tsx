@@ -9,7 +9,7 @@ const Navbar = () => {
         <li className="flex items-center max-md:justify-center ">
           <a href="/">Home</a>
         </li>
-        <div className="flex gap-7 max-md:flex-col max-md:py-7 items-center">
+        <div className="flex gap-7  max-md:flex-col max-md:py-7 items-center">
           <li>
             <a href="#about">About</a>
           </li>
@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex justify-center py-7 flex-wrap max-lg:px-10 lg:px-20 items-center max-md:justify-end ">
+      <div className="flex justify-center py-7 !pb-0 flex-wrap max-lg:px-16 lg:px-20 items-center max-md:justify-end ">
         <ul className="flex justify-around w-full  font-medium flex-wrap text-centers max-md:hidden mx-auto">
           <NavLinks handleToggle={handleToggle} />
         </ul>
