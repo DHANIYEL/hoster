@@ -15,7 +15,7 @@ const Contact = () => {
           <CustomButton
             img={whatsapp}
             children="Get  in touch with us"
-            className="flex flex-row gap-2 justify-center items-center"
+            className="flex flex-row gap-2 justify-center items-center max-sm:text-sm"
             handleClick={handleNavigation}
           />
         </div>

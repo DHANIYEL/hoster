@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="padding">
-      <div className="padding flex justify-start bg-[#3457BB] text-[#c5c2c2] relative">
+    <div className="padding !pb-0 bg-[#3457BB] text-[#c5c2c2]">
+      <div className="lg:px-8 lg:py-12 flex justify-start  relative">
         <div className="flex w-fit justify-start items-center flex-row gap-28 max-lg:flex-col">
           <div className="w-1/4 max-lg:w-fit">
             <p className="max-lg:w-full ">
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
         <p
-          className="absolute bottom-10 cursor-pointer bg-[#ded9d929] px-3 py-2 rounded-lg text-[12px] font-semibold"
+          className="absolute bottom-10 max-lg:right-0 max-md:bottom-0 cursor-pointer bg-[#ded9d929] px-3 py-2 rounded-lg text-[12px] font-semibold"
           onClick={() => {
             // Your custom click handler logic here
             window.location.href =
