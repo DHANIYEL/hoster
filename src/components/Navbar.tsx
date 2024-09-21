@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="flex justify-center py-7 flex-wrap max-lg:px-10 lg:px-20 items-center max-md:justify-end ">
-        <ul className="flex justify-around w-full font-medium flex-wrap text-centers max-md:hidden mx-auto">
+        <ul className="flex justify-around w-full  font-medium flex-wrap text-centers max-md:hidden mx-auto">
           <NavLinks handleToggle={handleToggle} />
         </ul>
         <div className="md:hidden">
