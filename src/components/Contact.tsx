@@ -1,6 +1,10 @@
 import CustomButton from "./CustomButton";
 import whatsapp from "../assets/Vector.svg";
 const Contact = () => {
+  const handleNavigation = () => {
+    window.location.href = "https://wa.me/7012882165";
+  };
+
   return (
     <div className="padding-x" id="contact">
       <div className="bg-[#F7FAFE] w-full p-20 rounded-lg shadow-sm">
@@ -12,6 +16,7 @@ const Contact = () => {
             img={whatsapp}
             children="Get  in touch with us"
             className="flex flex-row gap-2 justify-center items-center"
+            handleClick={handleNavigation}
           />
         </div>
       </div>

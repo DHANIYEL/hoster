@@ -32,7 +32,7 @@ const Navbar = () => {
           <li className="flex items-center justify-end gap-1">
             <p className="mr-4 text-gray-300">|</p>
             <img src={phoneImage} alt="logo" className="w-4 h-4" />
-            <p>+91 7012882165</p>
+            <a href="tel:+919895987044">+91 9895987044</a>
           </li>
         </ul>
       </div>

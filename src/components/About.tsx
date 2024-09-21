@@ -8,10 +8,18 @@ const About = () => {
         <div className="flex gap-10 flex-col flex-1 ">
           <h1 className="text-4xl font-bold">True Cloud Web Hosting</h1>
           <p>
-            True Cloud Web Hosting All of the hosting packages we offer are
-            deployed instantly on our SSD powered cloud. We don’t use dedicated
-            servers that operate on single pieces of hardware. Our entire
-            infrastructure is built to be reliable, secure, and scalable.
+            At Server Ninja, we’re dedicated to providing top-tier WordPress
+            hosting solutions that empower your online presence. Our optimized
+            servers and infrastructure are specifically designed to deliver
+            exceptional performance, security, and reliability for your
+            WordPress websites. <br />
+            <br />
+            Enjoy the ease of our one-click WordPress installations, along with
+            automatic updates and backups to keep your site running smoothly.
+            Our expert support team is always available to assist you with any
+            questions or issues, ensuring a hassle-free hosting experience. With
+            Server Ninja, you can focus on creating amazing content while we
+            handle the technicalities of hosting your WordPress website.
           </p>
         </div>
         <div className="grid grid-cols-3 max-md:grid-cols-2  gap-6 flex-1 justify-items-center ">
