@@ -16,9 +16,9 @@ const Navbar = () => {
           <li>
             <a href="#pricing">Pricing</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#blog">Blog</a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact">Contact</a>
           </li>
@@ -26,7 +26,7 @@ const Navbar = () => {
         <li className="flex items-center justify-end gap-1 max-md:justify-center">
           <p className="mr-4 text-gray-300 max-md:hidden">|</p>
           <img src={phoneImage} alt="logo" className="w-4 h-4" />
-          <a href="tel:+919895987044">+91 9656210077</a>
+          <a href="tel:+919656210077">+91 9656210077</a>
         </li>
       </>
     );
