@@ -9,6 +9,7 @@ interface PriceCardProps {
   year: string;
   featureList: String[];
   wpName: string;
+  className?: string;
 }
 
 const PriceCard = ({
@@ -19,6 +20,7 @@ const PriceCard = ({
   year,
   featureList,
   wpName,
+  className,
 }: PriceCardProps) => {
   // console.log(featureList);
 
@@ -27,7 +29,9 @@ const PriceCard = ({
   };
   return (
     <div className="">
-      <div className="border-[2px]  rounded-xl shadow-md flex flex-col h-full">
+      <div
+        className={`border-[2px]  rounded-xl shadow-md flex flex-col h-full ${className}`}
+      >
         <div className="p-6 flex flex-col  gap-4 ">
           <h1 className="text-2xl font-bold ">{head}</h1>
           <span className="bg-yellow-300 px-2 py-0.5 font-semibold w-fit text-[12px] rounded-full">
