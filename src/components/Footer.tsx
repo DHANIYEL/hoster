@@ -7,10 +7,10 @@ const Footer = () => {
         <div className="flex w-fit justify-start items-center flex-row gap-28 max-lg:flex-col">
           <div className="w-1/4 max-lg:w-fit">
             <p className="max-lg:w-full ">
-              Server Ninja: Your trusted partner for exceptional WordPress
-              hosting. Experience the power of our optimized infrastructure,
-              designed to deliver lightning-fast performance, unparalleled
-              security, and exceptional reliability.
+              <strong>Server Ninja </strong> Your trusted partner for
+              exceptional WordPress hosting. Experience the power of our
+              optimized infrastructure, designed to deliver lightning-fast
+              performance, unparalleled security, and exceptional reliability.
             </p>
           </div>
           <div className="w-3/4 grid grid-cols-4 max-md:grid-cols-2 gap-20 max-lg:w-full">
