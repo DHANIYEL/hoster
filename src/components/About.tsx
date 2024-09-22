@@ -27,16 +27,22 @@ const About = () => {
             handle the technicalities of hosting your WordPress website.
           </p>
         </div>
-        <div className="grid grid-cols-3 max-md:grid-cols-2  gap-6 flex-1 justify-items-center ">
+        {/* <div className="grid grid-cols-3 max-md:grid-cols-2  gap-6 flex-1 justify-items-center ">
           <img src={companyLocgo} alt="" className="object-cover" />
           <img src={companyLocgo} alt="" className="object-cover" />
           <img src={companyLocgo} alt="" className="object-cover" />
           <img src={companyLocgo} alt="" className="object-cover" />
           <img src={companyLocgo} alt="" className="object-cover" />
           <img src={companyLocgo} alt="" className="object-cover" />
-        </div>
+        </div> */}
       </div>
-      <div className="padding-y grid grid-cols-4 max-md:grid-cols-2  gap-10  padding-y ">
+      {/*  */}
+      {/****************** clients ******************/}
+      {/*  */}
+      <div>
+        <div></div>
+      </div>
+      <div className="padding-y items-start grid grid-cols-4 max-md:grid-cols-2  gap-10  padding-y ">
         <div className="flex flex-col justify-center items-center ">
           <div className="h-[80px] w-[80px] ">
             <img src={time} alt="" className="object-contain" />
@@ -66,7 +72,7 @@ const About = () => {
         </div>
         <div className="flex flex-col justify-center items-center  max-sm:text-center">
           <div className="h-[80px] w-[80px]">
-            <img src={online} alt="" className="object-contain" />
+            <img src={support} alt="" className="object-contain" />
           </div>
           <h1 className="text-md font-semibold p-3 text-center">
             Expert Support
@@ -78,15 +84,12 @@ const About = () => {
         </div>
         <div className="flex flex-col justify-center  items-center max-sm:text-center">
           <div className="h-[80px] w-[80px]">
-            <img src={support} alt="" className="object-contain" />
+            <img src={online} alt="" className="object-contain" />
           </div>
-          <h1 className="text-md font-semibold p-3 text-center">
-            24x7 Friendly Support
-          </h1>
+          <h1 className="text-md font-semibold p-3 text-center">Scalable</h1>
           <p className="text-sm text-gray-600">
-            Avoid the frustration and financial loss of website downtime. Our
-            commitment to 24/7/365 uptime guarantees maximum availability for
-            your online business.
+            Scalable and flexible hosting solutions to support your website's
+            growth.
           </p>
         </div>
       </div>
