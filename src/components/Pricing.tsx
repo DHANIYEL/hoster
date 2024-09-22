@@ -39,8 +39,7 @@ const Pricing = () => {
     <div className="px-4 sm:px-8 md:px-16 lg:px-20 py-8" id="pricing">
       <div className="flex flex-col text-center">
         <h1 className="text-4xl sm:text-4xl lg:text-5xl font-semibold">
-          Ready to get started with <br />
-          Lemon Wares?
+          Affordable WordPress Hosting Plans
         </h1>
         <p className="text-gray-500 mt-6 text-sm sm:text-base md:text-lg">
           Choose the package that suits you

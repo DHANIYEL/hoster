@@ -7,9 +7,10 @@ const Footer = () => {
         <div className="flex w-fit justify-start items-center flex-row gap-28 max-lg:flex-col">
           <div className="w-1/4 max-lg:w-fit">
             <p className="max-lg:w-full ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
-              urna, porttitor rhoncus dolor p urus non enim praesent elem
+              Server Ninja: Your trusted partner for exceptional WordPress
+              hosting. Experience the power of our optimized infrastructure,
+              designed to deliver lightning-fast performance, unparalleled
+              security, and exceptional reliability.
             </p>
           </div>
           <div className="w-3/4 grid grid-cols-4 max-md:grid-cols-2 gap-20 max-lg:w-full">
@@ -40,16 +41,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* <p
-          className="absolute bottom-10 max-lg:right-0 max-md:bottom-0 cursor-pointer bg-[#ded9d929] px-3 py-2 rounded-lg text-[12px] font-semibold"
-          onClick={() => {
-            // Your custom click handler logic here
-            window.location.href =
-              "https://www.linkedin.com/in/dhaniyel-darvesh-256987280/";
-          }}
-        >
-          Copyright by Dhaniiiyll
-        </p> */}
+        <p className="absolute bottom-6 max-lg:right-0 max-lg:bottom-0  text-[12px] font-bold">
+          © 2024 Server Ninja. All rights reserved.
+        </p>
       </div>
     </div>
   );

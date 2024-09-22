@@ -8,11 +8,14 @@ const Hero = () => {
         {/* heading and text */}
         <div className="flex-1 justify-center">
           <h1 className="text-6xl font-bold leading-tight max-md:text-center max-lg:text-4xl">
-            Premium Web Hosting for Your Website
+            Elevate Your WordPress with Server Ninja
           </h1>
           <p className="py-7 text-gray-500 max-md:text-center max-lg:text-sm ">
-            Blazing fast web hosting for individuals and businesses of all sizes
-            backed by 24x7x365 Support.
+            Unleash the full potential of your WordPress website with Server
+            Ninja's premium hosting solutions. Our expertly optimized
+            infrastructure ensures lightning-fast load times, unparalleled
+            security, and exceptional reliability, empowering you to deliver a
+            seamless user experience.
           </p>
           <div className="flex max-md:justify-center">
             <CustomButton

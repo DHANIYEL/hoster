@@ -6,7 +6,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="padding-x" id="contact">
+    <div className="padding" id="contact">
       <div className="bg-[#F7FAFE] w-full p-20 rounded-lg shadow-sm">
         <div className="flex flex-col justify-center items-center gap-10">
           <h1 className="text-4xl max-md:text-2xl font-bold text-center">
