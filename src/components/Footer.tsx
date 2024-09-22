@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="absolute bottom-6 max-lg:right-0 max-lg:bottom-0  text-[12px] font-bold">
+        <p className="absolute bottom-6 max-lg:right-0 max-lg:bottom-0  text-[12px] max-sm:text-[10px] font-semibold">
           © 2024 Server Ninja. All rights reserved.
         </p>
       </div>
