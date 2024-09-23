@@ -69,32 +69,32 @@ const Pricing = () => {
         <PriceCard
           head="Shared"
           section=" Shared Server"
-          description="With all your customers via all conversation channels."
+          description="Collaborate with all your customers seamlessly."
           pricing="₹3500"
           year="Per year"
           featureList={BasicFeature}
           wpName="https://wa.me/9656210077?text=Hi%inquiring%20about%20the%20Starter%20WordPress%20hosting%plan.%20Could%20you%tell%me%20more%20about%20what's%20included%20and%20who%20it's%20best%20suited%20for%20?"
-          className="w-auto max-w-sm mx-auto" // Added class for width & centering
+          className="w-auto max-w-sm mx-auto  hover:-translate-y-2 duration-[350ms] cursor-pointer" // Added class for width & centering
         />
         <PriceCard
           head="Cloud"
           section="Cloud Server"
-          description="With all your customers via all conversation channels."
+          description="Scale effortlessly with our cloud hosting."
           pricing="₹3500"
           year="Per month"
           featureList={MidlleFeature}
           wpName="https://wa.me/9656210077?text=Hi%inquiring%20about%20the%20Standard%20WordPress%20hosting%plan.%20What%are%20the%20key%differences%20compared%20to%20the%20Starter%20plan,%20and%20what%20additional%features%20or%benefits%20does%20it%20offer?"
-          className="w-auto max-w-sm mx-auto" // Added class for width & centering
+          className="w-auto max-w-sm mx-auto hover:-translate-y-2 duration-200 cursor-pointer " // Added class for width & centering
         />
         <PriceCard
-          head="Suprem"
+          head="Dedicated"
           section="WordPress Dedicated"
-          description="With all your customers via all conversation channels."
+          description="Experience ultimate control with dedicated hosting."
           pricing="₹8500"
           year="Per month"
           featureList={AdvanceFeature}
           wpName="https://wa.me/9656210077?text=Hi%inquiring%20about%20the%20Supreme%20hosting%plan.%20Can%20you%tell%20me%20more%20about%20your%2 Supreme%20hosting%20plan,%20and%20how%20it%20compares%20to%20your%20other%20options?"
-          className="w-auto max-w-sm mx-auto" // Added class for width & centering
+          className="w-auto max-w-sm mx-auto hover:-translate-y-2 duration-200 cursor-pointer " // Added class for width & centering
         />
       </div>
     </div>
