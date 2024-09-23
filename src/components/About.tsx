@@ -88,8 +88,8 @@ const About = () => {
           </div>
           <h1 className="text-md font-semibold p-3 text-center">Scalable</h1>
           <p className="text-sm text-gray-600">
-            Scalable and flexible hosting solutions to support your website's
-            growth.
+            Scalable hosting for your growing website. Our infrastructure adapts
+            seamlessly to your needs, ensuring optimal performance and security.
           </p>
         </div>
       </div>
