@@ -7,6 +7,7 @@ import Pricing from "components/Pricing";
 // import Testimonial from "components/Testimonial";
 import Contact from "components/Contact";
 import Footer from "components/Footer";
+import Clients from "components/Clients";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Clients />
       <Pricing />
       {/* <Testimonial /> */}
       <Contact />
