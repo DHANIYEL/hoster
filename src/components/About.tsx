@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="padding  App  " id="about">
       <div className="flex justify-center items-center gap-10 max-md:flex-col">
-        <div className="flex gap-10 flex-col flex-1 ">
+        <div className="flex gap-10 flex-col flex-1 text-center">
           <h1 className="text-4xl font-bold">
             Empower Your WordPress Journey with Server Ninja
           </h1>
