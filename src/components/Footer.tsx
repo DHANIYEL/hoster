@@ -1,6 +1,15 @@
 import React from "react";
 
 const Footer = () => {
+  const handleContact = () => {
+    window.location.href = "#nav";
+  };
+  const handleAbout = () => {
+    window.location.href = "#about";
+  };
+  const handlePrice = () => {
+    window.location.href = "#pricing";
+  };
   return (
     <div className="padding !pb-0 bg-[#3457BB] text-[#c5c2c2]">
       <div className="lg:px-8 lg:py-12 flex justify-start  relative">
@@ -13,31 +22,39 @@ const Footer = () => {
               performance, unparalleled security, and exceptional reliability.
             </p>
           </div>
-          <div className="w-3/4 grid grid-cols-4 max-md:grid-cols-2 gap-20 max-lg:w-full">
-            <div className="flex flex-col w-full justify-around gap-6">
-              <h6 className="font-semibold cursor-pointer">Service</h6>
-              <p className="cursor-pointer">Domain</p>
-              <p className="cursor-pointer">Shared Hosting</p>
-              <p className="cursor-pointer">Cloud Hosting</p>
-              <p className="cursor-pointer">Private Hosting</p>
+          <div className="w-3/4 grid grid-cols-3 max-md:grid-cols-2 gap-16  max-lg:w-full">
+            <div className="flex flex-col justify-around gap-6 ">
+              <h6 className="font-semibold cursor-pointe w-fit">Service</h6>
+              <p className="cursor-pointer w-fit" onClick={handlePrice}>
+                Cheap Hosting
+              </p>
+              <p className="cursor-pointer w-fit" onClick={handlePrice}>
+                Hosting Wordpress
+              </p>
+              <p className="cursor-pointer w-fit" onClick={handlePrice}>
+                Hosting Unlimited
+              </p>
             </div>
-            <div className="flex flex-col w-full gap-6">
-              <h6 className="font-semibold cursor-pointer">Hosting</h6>
-              <p className="cursor-pointer">Cheap Hosting</p>
-              <p className="cursor-pointer">Hosting Wordpress</p>
-              <p className="cursor-pointer">Email Hosting</p>
-              <p className="cursor-pointer">Hosting Unlimited</p>
+            <div className="flex flex-col w-fit gap-6">
+              <h6 className="font-semibold cursor-pointer w-fit">Hosting</h6>
+              <p className="cursor-pointer w-fit" onClick={handlePrice}>
+                Shared Server
+              </p>
+              <p className="cursor-pointer w-fit" onClick={handlePrice}>
+                Cloud Server
+              </p>
+              <p className="cursor-pointer w-fit" onClick={handlePrice}>
+                WordPress Dedicated
+              </p>
             </div>
-            <div className="flex flex-col w-full gap-6">
+            <div className="flex flex-col  gap-6 w-fit">
               <h6 className="font-semibold cursor-pointer">Company</h6>
-              <p className="cursor-pointer">About</p>
-              <p className="cursor-pointer">Career</p>
-              <p className="cursor-pointer">Contact Us</p>
-            </div>
-            <div className="flex flex-col w-full gap-6">
-              <h6 className="font-semibold cursor-pointer">Help</h6>
-              <p className="cursor-pointer">FAQ</p>
-              <p className="cursor-pointer">Help support</p>
+              <p className="cursor-pointer" onClick={handleAbout}>
+                About
+              </p>
+              <p className="cursor-pointer" onClick={handleContact}>
+                Contact Us
+              </p>
             </div>
           </div>
         </div>

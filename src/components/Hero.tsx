@@ -3,7 +3,7 @@ import heroImage from "../assets/hero-img.png"; // Import as default export
 
 const Hero = () => {
   return (
-    <div className=" padding pad-rem">
+    <div className=" padding pad-rem" id="hero">
       <div className="flex gap-5 max-md:flex-col-reverse items-center justify-center">
         {/* heading and text */}
         <div className="flex-1 justify-center">
