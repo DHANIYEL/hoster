@@ -1,5 +1,9 @@
 import CustomButton from "./CustomButton";
-import heroImage from "../assets/hero-img.png"; // Import as default export
+// import heroImage from "../assets/hero-img.png";
+// import ninja1 from "../assets/ninja1.jpg";
+// import ninja2 from "../assets/ninja2.jpg";
+import ninja3 from "../assets/ninja3.jpg";
+// import ninja4 from "../assets/ninja4.jpg";
 
 const Hero = () => {
   return (
@@ -26,8 +30,8 @@ const Hero = () => {
           </div>
         </div>
         {/* hero image */}
-        <div className="flex-1 w-full flex justify-end max-md:justify-center max-md:my-6">
-          <img src={heroImage} alt="hero" className="object-contain" />
+        <div className="flex-1 w-full flex justify-end max-md:justify-center max-md:my-6 ">
+          <img src={ninja3} alt="hero" className="object-contain rounded-md" />
         </div>
       </div>
     </div>
