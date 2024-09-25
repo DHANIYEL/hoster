@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className="padding !pb-0 bg-[#3457BB] text-[#c5c2c2]">
       <div className="lg:px-8 lg:py-12 flex justify-start  relative">
-        <div className="flex w-fit justify-start items-center flex-row gap-28 max-lg:flex-col">
+        <div className="flex w-fit justify-start items-start flex-row gap-28 max-lg:flex-col">
           <div className="w-1/4 max-lg:w-fit">
             <p className="max-lg:w-full ">
               <strong>Server Ninja </strong> Your trusted partner for
@@ -21,9 +21,16 @@ const Footer = () => {
               optimized infrastructure, designed to deliver lightning-fast
               performance, unparalleled security, and exceptional reliability.
             </p>
+            <br />
+            <p className="font-semibold">
+              Server Ninja Kerala Startup Mission, Govt Cyber Park, Calicut
+              673016
+              <br />
+              <br />
+            </p>
           </div>
           <div className="w-3/4 grid grid-cols-3 max-md:grid-cols-2 gap-16  max-lg:w-full">
-            <div className="flex flex-col justify-around gap-6 ">
+            <div className="flex flex-col justify-start gap-6 ">
               <h6 className="font-semibold cursor-pointe w-fit">Service</h6>
               <p className="cursor-pointer w-fit" onClick={handlePrice}>
                 Cheap Hosting
