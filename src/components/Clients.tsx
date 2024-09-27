@@ -9,7 +9,7 @@ import Client8 from "../assets/client-8.png";
 
 const Clients = () => {
   return (
-    <div className="padding">
+    <div className="padding" id="clients">
       <div>
         <div className="flex flex-col justify-center items-center gap-2 text-center">
           <h3 className="text-2xl font-bold">Our Major Clients</h3>

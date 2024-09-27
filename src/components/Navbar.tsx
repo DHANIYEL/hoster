@@ -1,24 +1,30 @@
 import React, { useState } from "react";
 import phoneImage from "../assets/phone-img.png";
 import { Menu, X } from "lucide-react";
+import SeverNinjaImg from "../assets/server.png";
 
 const Navbar = () => {
   const NavLinks = ({ handleToggle }: { handleToggle: () => void }) => {
     return (
       <>
         <li className="flex items-center max-md:justify-center ">
-          <a href="/">Home</a>
+          {/* <a href="/">Home</a> */}
+          <img
+            src={SeverNinjaImg}
+            alt="logo img"
+            className="object-contain w-40 "
+          />
         </li>
         <div className="flex gap-7  max-md:flex-col max-md:py-7 items-center">
           <li>
             <a href="#about">About</a>
           </li>
           <li>
+            <a href="#clients">Clients</a>
+          </li>
+          <li>
             <a href="#pricing">Pricing</a>
           </li>
-          {/* <li>
-            <a href="#blog">Blog</a>
-          </li> */}
           <li>
             <a href="#contact">Contact</a>
           </li>
