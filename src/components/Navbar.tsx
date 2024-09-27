@@ -8,12 +8,13 @@ const Navbar = () => {
     return (
       <>
         <li className="flex items-center max-md:justify-center ">
-          {/* <a href="/">Home</a> */}
-          <img
-            src={SeverNinjaImg}
-            alt="logo img"
-            className="object-contain w-40 "
-          />
+          <a href="#home">
+            <img
+              src={SeverNinjaImg}
+              alt="logo img"
+              className="object-contain w-40 "
+            />
+          </a>
         </li>
         <div className="flex gap-7  max-md:flex-col max-md:py-7 items-center">
           <li>
@@ -47,7 +48,7 @@ const Navbar = () => {
   return (
     <div id="nav">
       <div className="flex justify-center py-7 !pb-0 !pt-5 flex-wrap padding lg:px-20 items-center max-md:justify-end ">
-        <ul className="flex justify-around w-full  font-medium flex-wrap text-centers max-md:hidden mx-auto">
+        <ul className="flex justify-around w-full fixed py-6 top-0 left-0 right-0 bg-white z-50 font-medium flex-wrap text-centers max-md:hidden mx-auto">
           <NavLinks handleToggle={handleToggle} />
         </ul>
         <div className="md:hidden">

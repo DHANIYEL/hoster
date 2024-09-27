@@ -9,7 +9,7 @@ import ninja7 from "../assets/ninja7.jpg";
 
 const Hero = () => {
   return (
-    <div className=" padding pad-rem" id="hero">
+    <div className=" padding pad-rem" id="home">
       <div className="flex gap-5 max-md:flex-col-reverse items-center justify-center">
         {/* heading and text */}
         <div className="flex-1 justify-center">
