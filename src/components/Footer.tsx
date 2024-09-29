@@ -23,8 +23,8 @@ const Footer = () => {
             </p>
             <br />
             <p className="font-semibold">
-              Server Ninja Kerala Startup Mission, Govt Cyber Park, Calicut
-              673016
+              Server Ninja <br /> Kerala Startup Mission <br /> Govt Cyber Park,
+              Calicut 673016
               <br />
               <br />
             </p>
