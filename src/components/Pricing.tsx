@@ -21,11 +21,12 @@ const Pricing = () => {
   const MidlleFeature = ["20GB Disk", "1 CPU", "2GB RAM", "2TB Traffic"];
 
   const AdvanceFeature = [
-    "Xeon-E 2386G - 6 c / 12 t - 3.5 GHz / 4.7 GHz",
-    "From 32 GB to 128 GB DDR4 ECC",
-    "SSD NVMe, HDD SATA",
-    "bandwidth1 Gbps guaranteed",
+    "4 Core Xeon Processor",
+    "16 GB DDR4 RAM",
+    "256 GB SSD NVMe",
+    "1GBps connection",
   ];
+
 
   return (
     <div className="px-4 sm:px-8 md:px-16 lg:px-20 py-8" id="pricing">
