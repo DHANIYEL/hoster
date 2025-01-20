@@ -25,6 +25,7 @@ const Pricing = () => {
     "16 GB DDR4 RAM",
     "256 GB SSD NVMe",
     "1GBps connection",
+    "Linux OS"
   ];
 
 
