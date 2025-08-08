@@ -8,26 +8,30 @@ const Pricing = () => {
     setActivePlan(plan);
   };
 
-  const BasicFeature = [
-    "1GB Disk",
-    "2 MySQL® Databases",
-    "∞ Bandwidth",
-    "1 Addon Domains",
-    "1 Subdomains",
-    "2 Email Accounts",
-    "1 FTP Accounts",
-  ];
+  const BasicFeature = ["40GB SSD", "2 CPU", "2GB RAM", "20TB Traffic"];
 
-  const MidlleFeature = ["20GB Disk", "1 CPU", "2GB RAM", "2TB Traffic"];
+  const MidlleFeature = ["80GB SSD", "3 CPU", "4GB RAM", "20TB Traffic"];
 
-  const AdvanceFeature = [
-    "4 Core Xeon Processor",
-    "16 GB DDR4 RAM",
-    "256 GB SSD NVMe",
-    "1GBps connection",
-    "Linux OS"
-  ];
+  const AdvanceFeature = ["160GB SSD", "4 CPU", "8GB RAM", "20TB Traffic"];
+  // const BasicFeature = [
+  //   "1GB Disk",
+  //   "2 MySQL® Databases",
+  //   "∞ Bandwidth",
+  //   "1 Addon Domains",
+  //   "1 Subdomains",
+  //   "2 Email Accounts",
+  //   "1 FTP Accounts",
+  // ];
 
+  // const MidlleFeature = ["20GB Disk", "1 CPU", "2GB RAM", "2TB Traffic"];
+
+  // const AdvanceFeature = [
+  //   "4 Core Xeon Processor",
+  //   "16 GB DDR4 RAM",
+  //   "256 GB SSD NVMe",
+  //   "1GBps connection",
+  //   "Linux OS"
+  // ];
 
   return (
     <div className="px-4 sm:px-8 md:px-16 lg:px-20 py-8" id="pricing">
