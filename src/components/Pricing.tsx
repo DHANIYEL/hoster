@@ -76,7 +76,7 @@ const Pricing = () => {
           head="Shared"
           section=" Shared Server"
           description="Collaborate with all your customers seamlessly."
-          pricing="₹3500"
+          pricing="₹3000"
           year="Per year"
           featureList={BasicFeature}
           wpName="https://wa.me/9656210077?text=Hi%20inquiring%20about%20the%20Starter%20Shared%20Server%20plan.%20Could%20you%20tell%20me%20more%20about%20what's%20included%20and%20who%20it's%20best%20suited%20for%20?"
@@ -86,7 +86,7 @@ const Pricing = () => {
           head="Cloud"
           section="Cloud Server"
           description="Scale effortlessly with our cloud hosting."
-          pricing="₹3500"
+          pricing="₹6000"
           year="Per month"
           featureList={MidlleFeature}
           wpName="https://wa.me/9656210077?text=Hi%20inquiring%20about%20the%20Standard%20Cloud%20Server%20plan.%20What%20are%20the%20key%20differences%20compared%20to%20the%20Starter%20plan,%20and%20what%20additional%20features%20or%20benefits%20does%20it%20offer?"
@@ -96,7 +96,7 @@ const Pricing = () => {
           head="Dedicated"
           section="WordPress Dedicated"
           description="Experience ultimate control with dedicated hosting."
-          pricing="₹8500"
+          pricing="₹9000"
           year="Per month"
           featureList={AdvanceFeature}
           wpName="https://wa.me/9656210077?text=Hi%20inquiring%20about%20the%20Dedicated%20hosting%20plan.%20Can%20you%20tell%20me%20more%20about%20your%20 WordPress%20Dedicated%20plan,%20and%20how%20it%20compares%20to%20your%20other%20options?"
